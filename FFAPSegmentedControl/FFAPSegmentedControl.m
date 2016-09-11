@@ -75,6 +75,7 @@
     [self addObserver:self forKeyPath:@"borderWidth" options:0 context:nil];
 }
 
+#pragma mark - Others
 -(NSString*) getSelectedText {
     if (_selectedIndex == -1) {
         return nil;
