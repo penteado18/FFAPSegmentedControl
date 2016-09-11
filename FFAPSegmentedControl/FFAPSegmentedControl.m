@@ -92,7 +92,7 @@
 }
 
 
-#pragma mark - UI
+#pragma mark - User Interface
 // Build the Segmented control
 - (void) buildObject {
     labels = [[NSMutableArray alloc] init];
